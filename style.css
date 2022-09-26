@@ -12,7 +12,6 @@ h1{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
     
-
 }
 main > article{ 
     border: 4px solid black;
@@ -26,9 +25,10 @@ article > h5{
     margin: 5px;
 }
 article > img{
+    grid: flex;
     height: 120px;
     width: 120px;
-    margin-left: 150px;
+    margin-left: 135px;
     }
 
     article > p{
